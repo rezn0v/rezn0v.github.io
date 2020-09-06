@@ -1,9 +1,9 @@
-title: Hacker-Blog
-description: "A Jekyll Blog Theme For Hackers"
+title: Escaping Vorkuta
+description: "Reznov's walkthroughs on CTFs and the such."
 author:
-  name: "SomeHacker"
-  email: "someone@somewebsite.somedomain"
-  url: "https://ashishchaudhary.in/hacker-blog"
+  name: "rezn0v"
+  email: "reznovisvibing@gmail.com"
+  url: "https://rezn0v.github.io"
 
 baseurl: /
 
@@ -22,11 +22,9 @@ defaults:
       layout: "post"
 
 future: true
-plugins:
-  - jekyll-seo-tag
-  - jekyll-paginate
-  - jekyll-sitemap
+
+plugins: [jekyll-paginate]
 
 # Custom variables
-owner : "SomeHacker"
+owner : "rezn0v"
 year : "2020"
