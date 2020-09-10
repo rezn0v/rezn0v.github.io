@@ -102,9 +102,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: $header;
   letter-spacing: -0.03em;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
-               0 0 5px rgba(181, 232, 83, 0.1),
-               0 0 10px rgba(181, 232, 83, 0.1);
 }
 
 #main_content h1 {
@@ -237,7 +234,6 @@ hr {
 
 a {
   color: #ff4d4d;
-  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
 
 a:active, a:focus {
