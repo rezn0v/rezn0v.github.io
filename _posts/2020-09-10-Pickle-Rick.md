@@ -1,9 +1,10 @@
 ---
-title: "Pickle Rick: A Rick and Morty CTF"
+title: "[TryHackMe] Pickle Rick: A Rick and Morty CTF"
 published: true
 ---
 
 In this CTF, we are given a machine and have to attempt to find three ingredients.
+[You can try it yourself here!](https://tryhackme.com/room/picklerick).
 
 Firstly, let's do some recon:
 
@@ -80,7 +81,7 @@ hydra -l R1ckRul3s -P /usr/share/wordlists/rockyou.txt 10.10.137.78 http-post-fo
 
 Without much success, I started to look for other resources and found that robots.txt contained the following:
 ```js
-Wubbalubbadubdub
+W**************d
 ```
 A password perhaps...?
 
