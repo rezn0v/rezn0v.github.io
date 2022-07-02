@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: '[Reversing.kr] Easy Crack'
 ---
 ## Introduction
